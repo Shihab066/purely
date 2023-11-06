@@ -1,0 +1,78 @@
+
+/* --------------- Promo section design start --------------- */
+.promo-section {
+    height: 54px;
+    background-color: var(--green);
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+
+.promo-width {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.promo-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: .5rem;
+}
+
+.promo-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1rem;
+}
+/* --------------- Promo section design end --------------- */
+
+
+/* --------------- Navbar section design start ------------ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive Design */
+@media screen and (max-width:576px) {
+    /* promo section responsive design start*/
+    .promo-right{
+        display: none;
+    }
+
+    .promo-width{
+        justify-content: center;
+    }
+
+    .promo-section{
+        font-size: 12px;
+        height: 40px;
+    }
+
+    #bell-icon{
+        width: 20px;
+        height: 20px;
+    }
+    /* promo section responsive design end */
+}
+
+@media  screen and (min-width:577px) and (max-width:1200px) {
+    .promo-section{
+        padding: 0 1rem;
+    }
+}

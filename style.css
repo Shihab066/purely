@@ -1,0 +1,10 @@
+@import url('css/Header/header.css');
+
+* {
+    margin: 0;    
+}
+
+:root {
+    --green: #004C3F;
+}
+
