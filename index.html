@@ -7,15 +7,14 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Document</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500&display=swap');
     </style>
 </head>
 
-<body>
+<body class="scroll">
     <!-- 
-        Header Section start. Contain:
-        1. promo section
-        2. Navbar
+        Header Section. Contain:
+        1. promo section        
      -->
     <header>
         <!-- Promo section start -->
@@ -58,13 +57,113 @@
             </div>
         </section>
         <!-- Promo section end -->
-
-        <!-- Navbar section start -->
-        <section>
-            
-        </section>
-
     </header>
+    <main class="">
+        <!-- Navbar section start -->
+        <section class="nav-section">
+            <div class="nav-width">
+                <!-- Navbar for mobile and tablet (visible from 0px to 992px)-->
+                <!-- hamburger logo -->
+                <div class="menu-logo">
+                    <input type="checkbox" id="nav-toggler" class="checkbox3 visuallyHidden">
+                    <label for="nav-toggler">
+                        <div class="hamburger hamburger3">
+                            <span class="bar bar1"></span>
+                            <span class="bar bar2"></span>
+                            <span class="bar bar3"></span>
+                            <span class="bar bar4"></span>
+                        </div>
+                    </label>
+                </div>
+
+                <!-- nav link for small device -->
+                <div class="nav-menu" id="nav-menu">
+                    <div class="menu-background" id="menu-background"></div>
+                    <nav class="nav-menu-item" id="nav-menu-item">
+                        <a href="#" class="nav-menu-link">Home</a>
+                        <a href="#" class="nav-menu-link">About</a>
+                        <a href="#" class="nav-menu-link">Shop</a>
+                        <a href="#" class="nav-menu-link">Pages
+                            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="5" viewBox="0 0 8 5" fill="none">
+                                <path
+                                    d="M4.00002 4.34307C3.90702 4.34307 3.81393 4.30769 3.74293 4.23703L0.106568 0.617821C-0.0355227 0.4764 -0.0355227 0.247395 0.106568 0.106065C0.248659 -0.0352646 0.478749 -0.0353551 0.620749 0.106065L4.00002 3.46939L7.37928 0.106065C7.52138 -0.0353551 7.75147 -0.0353551 7.89347 0.106065C8.03547 0.247486 8.03556 0.476491 7.89347 0.617821L4.25711 4.23703C4.18611 4.30769 4.09302 4.34307 4.00002 4.34307Z"
+                                    fill="#232424" />
+                            </svg>
+                        </a>
+                        <a href="#" class="nav-menu-link">Contact</a>
+                        <p class="nav-menu-link hide-item">English
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="8" height="5" viewBox="0 0 8 5"
+                                    fill="none">
+                                    <path
+                                        d="M4.00002 4.34307C3.90702 4.34307 3.81393 4.30769 3.74293 4.23703L0.106568 0.617821C-0.0355227 0.4764 -0.0355227 0.247395 0.106568 0.106065C0.248659 -0.0352646 0.478749 -0.0353551 0.620749 0.106065L4.00002 3.46939L7.37928 0.106065C7.52138 -0.0353551 7.75147 -0.0353551 7.89347 0.106065C8.03547 0.247486 8.03556 0.476491 7.89347 0.617821L4.25711 4.23703C4.18611 4.30769 4.09302 4.34307 4.00002 4.34307Z"
+                                        fill="black" />
+                                </svg>
+                            </span>
+                        </p>
+                        <p class="nav-menu-link hide-item">Currency
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="8" height="5" viewBox="0 0 8 5"
+                                    fill="none">
+                                    <path
+                                        d="M4.00002 4.34307C3.90702 4.34307 3.81393 4.30769 3.74293 4.23703L0.106568 0.617821C-0.0355227 0.4764 -0.0355227 0.247395 0.106568 0.106065C0.248659 -0.0352646 0.478749 -0.0353551 0.620749 0.106065L4.00002 3.46939L7.37928 0.106065C7.52138 -0.0353551 7.75147 -0.0353551 7.89347 0.106065C8.03547 0.247486 8.03556 0.476491 7.89347 0.617821L4.25711 4.23703C4.18611 4.30769 4.09302 4.34307 4.00002 4.34307Z"
+                                        fill="black" />
+                                </svg>
+                            </span>
+                        </p>
+                        <p style="margin-bottom: 100px;" class="nav-menu-link hide-item" >
+                            Profile
+                            <img src="images/icons/accountBlack.svg" alt="account logo" class="nav-profile-logo">
+                        </p>                        
+                    </nav>
+                </div>
+                <!-- -------------------------X---------------------------- -->
+
+
+                <!-- Navbar for laptop and desktop (visible from 993px)-->
+                <!-- nav links -->
+                <nav class="nav-left">
+                    <a href="#" class="nav-link">Home</a>
+                    <a href="#" class="nav-link">About</a>
+                    <a href="#" class="nav-link">Shop</a>
+                    <a href="#" class="nav-link">Pages
+                        <svg xmlns="http://www.w3.org/2000/svg" width="8" height="5" viewBox="0 0 8 5" fill="none">
+                            <path
+                                d="M4.00002 4.34307C3.90702 4.34307 3.81393 4.30769 3.74293 4.23703L0.106568 0.617821C-0.0355227 0.4764 -0.0355227 0.247395 0.106568 0.106065C0.248659 -0.0352646 0.478749 -0.0353551 0.620749 0.106065L4.00002 3.46939L7.37928 0.106065C7.52138 -0.0353551 7.75147 -0.0353551 7.89347 0.106065C8.03547 0.247486 8.03556 0.476491 7.89347 0.617821L4.25711 4.23703C4.18611 4.30769 4.09302 4.34307 4.00002 4.34307Z"
+                                fill="#232424" />
+                        </svg>
+                    </a>
+                    <a href="#" class="nav-link">Contact</a>
+                </nav>
+
+                <!-- main logo -->
+                <figure class="main-logo">
+                    <img src="./images/logo/logo.svg" alt="website logo">
+                </figure>
+
+                <!-- nav right links -->
+                <div class="nav-right">
+                    <div class="nav-search">
+                        <input class="nav-input" type="text" placeholder="Find your products">
+                        <img class="nav-search-icon" src="./images/icons/search.svg" alt="search icon">
+                    </div>
+                    <div class="nav-cart">
+                        <img class="nav-cart-icon" src="./images/icons/shopping-cart.svg" alt="shopping-cart icon"
+                            style="cursor: pointer;">
+                        <p class="nav-cart-info">Cart(2)</p>
+                    </div>
+                </div>
+                <!-- -------------------------X------------------------ -->
+            </div>
+        </section>
+        <!-- Navbar section end -->
+
+        <div>
+
+        </div>
+    </main>
+
+    <script src="./script/script.js"></script>
 </body>
 
 </html>
