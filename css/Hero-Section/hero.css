@@ -76,11 +76,17 @@
 
 
 /* Hero section features design */
+.hero-fetures-section-width {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    height: fit-content;
+}
+
 .features-items {
     display: flex;
     column-gap: 100px;
-    position: absolute;
-    bottom: -25%;
+    margin-top: 48px;
 }
 
 .features-item {
@@ -124,10 +130,7 @@
     .features-items {
         display: flex;
         justify-content: center;
-        position: absolute;
-        bottom: -30%;
-        left: 50%;
-        transform: translateX(-50%);
+        margin-top: 60px;
     }
 
     /* -----------X----------- */
@@ -210,10 +213,7 @@
     .features-items {
         display: flex;
         justify-content: center;
-        position: absolute;
-        bottom: -40%;
-        left: 50%;
-        transform: translateX(-50%);
+        margin-top: 50px;
     }
 
     /* --------------X--------------- */
@@ -303,10 +303,7 @@
         display: flex;
         justify-content: center;
         column-gap: 40px;
-        position: absolute;
-        bottom: -40%;
-        left: 50%;
-        transform: translateX(-50%);
+        margin-top: 50px;
 
     }
 
@@ -393,10 +390,7 @@
         display: flex;
         justify-content: center;
         column-gap: 20px;
-        position: absolute;
-        bottom: -40%;
-        left: 50%;
-        transform: translateX(-50%);
+        margin-top: 40px;
     }
 
     .features-item {
@@ -487,10 +481,7 @@
         display: flex;
         justify-content: center;
         column-gap: 0px;
-        position: absolute;
-        bottom: -25%;
-        left: 50%;
-        transform: translateX(-50%);
+        margin-top: 30px;
     }
 
     .features-item {
