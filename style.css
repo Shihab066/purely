@@ -1,5 +1,7 @@
 @import url('css/Header/header.css');
 @import url('css/Header/hamburgerAnimation.css');
+@import url('css/Hero-Section/hero.css');
+@import url('css/Common-Style/common.css');
 
 * {
     margin: 0;    
@@ -9,6 +11,9 @@
     --black:#232424;
     --white: #FFF;
     --green: #004C3F;
+    --subtitle-color: #545454;
+    --bg-primary: #F6FAF2;
     --primary-font: 'DM Serif Display', serif;
     --secondary-font: 'Inter', sans-serif;
+    
 }
