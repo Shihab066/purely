@@ -1,6 +1,7 @@
-@import url('css/Header/header.css');
-@import url('css/Header/hamburgerAnimation.css');
-@import url('css/Hero-Section/hero.css');
+@import url('css/1.Header/header.css');
+@import url('css/1.Header/hamburgerAnimation.css');
+@import url('css/2.Hero-Section/hero.css');
+@import url('css/3.Category/category.css');
 @import url('css/Common-Style/common.css');
 
 * {
