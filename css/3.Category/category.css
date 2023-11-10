@@ -47,6 +47,10 @@
 @media screen and (max-width:1259px) {
 
     /* category head responsive */
+    .category-section {
+        margin-top: 100px;
+    }
+
     .category-logo {
         width: 36px;
     }
