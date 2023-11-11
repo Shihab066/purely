@@ -1,8 +1,9 @@
+@import url('css/Common-Style/common.css');
 @import url('css/1.Header/header.css');
 @import url('css/1.Header/hamburgerAnimation.css');
 @import url('css/2.Hero-Section/hero.css');
 @import url('css/3.Category/category.css');
-@import url('css/Common-Style/common.css');
+@import url('css/4.About/about.css');
 
 * {
     margin: 0;
@@ -16,5 +17,4 @@
     --bg-primary: #F6FAF2;
     --primary-font: 'DM Serif Display', serif;
     --secondary-font: 'Inter', sans-serif;
-
 }
