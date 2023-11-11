@@ -1,0 +1,42 @@
+[
+    {
+        "image": "images/fruitsImage/corn.png",
+        "title": "Organic Corn",
+        "price": "$12/kg"
+    },
+    {
+        "image": "images/fruitsImage/cabbage.png",
+        "title": "Red Cabbage",
+        "price": "$05/kg"
+    },
+    {
+        "image": "images/fruitsImage/broccoli.png",
+        "title": "Fresh Broccoli",
+        "price": "$12/kg"
+    },
+    {
+        "image": "images/fruitsImage/tomato.png",
+        "title": "Organic Tomato",
+        "price": "$03/kg"
+    },
+    {
+        "image": "images/fruitsImage/peas.png",
+        "title": "Natural Peas",
+        "price": "$02/500gm"
+    },
+    {
+        "image": "images/fruitsImage/strawberry.png",
+        "title": "Fresh Strawberry",
+        "price": "$12/kg"
+    },
+    {
+        "image": "images/fruitsImage/papaya.png",
+        "title": "Ripe Papaya",
+        "price": "$08/500gm"
+    },
+    {
+        "image": "images/fruitsImage/briggle.png",
+        "title": "Battle Briggle",
+        "price": "$03/kg"
+    }
+]
