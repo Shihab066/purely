@@ -350,79 +350,102 @@
 @media screen and (max-width: 576px) {
     .primary-banner-section {
         max-width: 520px;
-        width: 100%;
+        width: 95%;
+        height: fit-content;
         display: grid;
         grid-template-columns: 55% 45%;
-        gap: 0px;
+        gap: 14px 0;
+        margin-top: 70px;
     }
 
 
-    .banner-subtitle{
-        font-size: 10px;        
+    .banner-subtitle {
+        font-size: 10px;
     }
 
-    .banner-title{
+    .banner-title {
         font-size: 16px;
         line-height: 22px;
         margin: 0 0;
     }
 
-    .banner-btn{
+    .banner-btn {
         font-size: 8px;
     }
 
     /* banner item 1 responsive */
-    .primary-banner-item-1{
+    .primary-banner-item-1 {
+        width: 95%;
+        margin-right: auto;
         height: 250px;
-        gap: 20px;        
+        gap: 20px;
     }
 
-    .banner-item1-img-container{
+    .banner-item1-img-container {
         flex-basis: 0;
     }
 
-    .banner-item1-img{
+    .banner-item1-img {
         /* transform: scale(.7); */
         width: 150px;
     }
 
-    .banner-item1-bg{
+    .banner-item1-bg {
         width: 150px;
     }
 
-
-    /* banner item 2 responsive */
-    .primary-banner-item-2{
-        height: 110px;    
-        gap: 0; 
-        justify-content: space-around; 
+    /* banner item 2-3 container */
+    .banner-item-2-3-container {
+        width: 95%;
+        height: 250px;
+        margin-left: auto;
     }
 
-    .banner-item-2-img{
+    /* banner item 2 responsive */
+    .primary-banner-item-2 {
+        height: 110px;
+        gap: 0;
+        justify-content: space-around;
+    }
+
+    .banner-item-2-img {
         width: 70px;
     }
 
-    .banner-item-2-bg-img{
+    .banner-item-2-bg-img {
         width: 90px;
     }
 
     /* banner item 3 responsive */
-    .primary-banner-item-3{
+    .primary-banner-item-3 {
         height: 130px;
     }
 
-    .banner-item-3-info{
+    .banner-item-3-info {
         margin-left: 16px;
     }
 
-    .banner-item-3-img{
+    .banner-item-3-img {
         width: 80px;
     }
 
-   .banner-item-3-bg-container{
-    transform: scale(.6);
-    bottom: 0;
-    left: -40%;
-   }
+    .banner-item-3-bg-container {
+        transform: scale(.6);
+        bottom: 0;
+        left: -40%;
+    }
+
+    /* banner item 4 responsive */
+    .primary-banner-item-4 {
+        align-items: center;
+    }
+
+    .banner-item-4-info {
+        position: static;
+    }
+
+    .banner-item-4-img {
+        width: 150px;
+    }
 
 }
