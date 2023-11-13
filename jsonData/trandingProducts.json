@@ -1,0 +1,20 @@
+[
+    {
+        "image": "images/trandingProduct/bitter.png",
+        "title": "Bitter Gourd",
+        "offerPrice": "$03/kg",
+        "mainPrice": "$07/kg"
+    },
+    {
+        "image": "images/trandingProduct/pumpkin.png",
+        "title": "Green Pumpkin",
+        "offerPrice": "$03/kg",
+        "mainPrice": "$07/kg"
+    },
+    {
+        "image": "images/trandingProduct/capsicum.png",
+        "title": "Fresh Capsicum",
+        "offerPrice": "$03/kg",
+        "mainPrice": "$07/kg"
+    }
+]

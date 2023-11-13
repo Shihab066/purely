@@ -6,6 +6,7 @@
 @import url('css/4.About/about.css');
 @import url('css/5.Regular-Products/regularProducts.css');
 @import url('css/6.Banners/banner.css');
+@import url('css/8.Tranding-Products/trandingProducts.css');
 
 * {
     margin: 0;
@@ -16,12 +17,14 @@
     --white: #FFF;
     --green: #004C3F;
     --subtitle-color: #545454;
+    --main-price-color: #B4B4B4;
     --bg-primary: #F6FAF2;
     --bg-secondary: #F9F9F9;
     --banner-bg-1: #FEF4EA;
     --banner-bg-2: #F2F2E6;
     --banner-bg-3: #E6EDF3;
     --banner-bg-4: #E6F2F2;
+    --banner-bg-5: #F6EDF1;
     --primary-font: 'DM Serif Display', serif;
     --secondary-font: 'Inter', sans-serif;
 }

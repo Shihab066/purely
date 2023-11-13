@@ -1,0 +1,116 @@
+.tranding-best-product-section {
+    margin-top: 135px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* style for tranding products and best seller products */
+.tranding-product {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tranding-product-card {
+    width: 370px;
+    height: 180px;
+    background-color: var(--bg-secondary);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+
+.tranding-product-img-container {
+    width: 133px;
+    height: 131px;
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 24px;
+}
+
+.tranding-product-info {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    gap: 20px;
+}
+
+.tranding-product-price-container {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 16px;
+}
+
+.tranding-product-title {
+    margin-bottom: 8px;
+}
+
+
+/* style for banner-2 */
+
+.banner-2 {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* style for banner-2 item-1*/
+.banner-2-item1 {
+    width: 370px;
+    height: 230px;
+    background-color: var(--banner-bg-5);
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+.banner-2-item1-btn {
+    justify-content: start;
+}
+
+.banner-2-item1-info {
+    position: relative;
+    top: 48px;
+    left: 32px;
+}
+
+.banner-2-item1-img-container {
+    justify-self: end;
+    margin-right: 20px;
+}
+
+
+
+/* style for banner-2 item-2*/
+.banner-2-item2 {
+    width: 370px;
+    height: 337px;
+    background-color: var(--banner-bg-3);
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.banner-2-item2-info {
+    text-align: right;
+    justify-self: end;
+    position: relative;
+    top: 56px;
+    right: 32px;
+}
+
+.banner-2-item2-btn {
+    justify-content: end;
+}
+
+.banner-2-item2-img-container {
+    margin-left: 24px;
+}

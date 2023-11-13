@@ -394,6 +394,12 @@
         width: 150px;
     }
 
+    .discount-bg-container{
+        transform: scale(.6);
+        top: -8%;
+        right: 2%;
+    }
+
     /* banner item 2-3 container */
     .banner-item-2-3-container {
         width: 95%;

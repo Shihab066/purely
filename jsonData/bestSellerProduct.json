@@ -1,0 +1,20 @@
+[
+    {
+        "image": "images/trandingProduct/onion.png",
+        "title": "Organic Onion",
+        "offerPrice": "$03/kg",
+        "mainPrice": "$07/kg"
+    },
+    {
+        "image": "images/trandingProduct/asparagus.png",
+        "title": "Fresh Asparagus",
+        "offerPrice": "$03/kg",
+        "mainPrice": "$07/kg"
+    },
+    {
+        "image": "images/trandingProduct/guava.png",
+        "title": "Organic Guava",
+        "offerPrice": "$03/kg",
+        "mainPrice": "$07/kg"
+    }
+]

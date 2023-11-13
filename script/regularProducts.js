@@ -5,7 +5,6 @@ async function addProductCard(json, id) {
     const productsDataSmall = productsData.slice(0, 4);
     const productsDataMedium = productsData.slice(0, 6);
     const productsDataLarge = productsData.slice(0, 8);
-    console.log(productsDataMedium)
     // ----------------------------------------
 
     // forEach the json file and make new element for regular product section
