@@ -1,5 +1,5 @@
 .custom-width {
-    max-width: 1200px;
+    max-width: 1170px;
     width: 100%;
     height: fit-content;
     margin-left: auto;
@@ -33,6 +33,14 @@
     line-height: 30px;
 }
 
+.banner-subtitle {
+    color: var(--green);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    font-family: var(--secondary-font);
+}
+
 .btn-primary {
     color: var(--white);
     background-color: var(--green);
@@ -59,6 +67,21 @@
     padding: 10px 12px;
     cursor: pointer;
 
+}
+
+.banner-btn {
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--subtitle-color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.14px;
+    font-family: var(--secondary-font);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
 }
 
 

@@ -5,6 +5,7 @@
 @import url('css/3.Category/category.css');
 @import url('css/4.About/about.css');
 @import url('css/5.Regular-Products/regularProducts.css');
+@import url('css/6.Banners/banner.css');
 
 * {
     margin: 0;
@@ -17,6 +18,10 @@
     --subtitle-color: #545454;
     --bg-primary: #F6FAF2;
     --bg-secondary: #F9F9F9;
+    --banner-bg-1: #FEF4EA;
+    --banner-bg-2: #F2F2E6;
+    --banner-bg-3: #E6EDF3;
+    --banner-bg-4: #E6F2F2;
     --primary-font: 'DM Serif Display', serif;
     --secondary-font: 'Inter', sans-serif;
 }

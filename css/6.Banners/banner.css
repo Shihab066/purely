@@ -1,0 +1,428 @@
+/* ----------------Banner style start--------------- */
+.primary-banner-section {
+    text-align: center;
+    margin-top: 130px;
+    height: 430px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-title {
+    margin: 4px 0;
+}
+
+/* Banner item 1 start */
+.primary-banner-item-1 {
+    width: 370px;
+    height: 100%;
+    background-color: var(--banner-bg-1);
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    gap: 40px;
+}
+
+.banner-item1-img-container {
+    flex-basis: 60%;
+    position: relative;
+    width: fit-content;
+    z-index: 1;
+}
+
+.banner-item1-bg {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -2;
+}
+
+.discount-bg-container {
+    position: absolute;
+    top: 0;
+    right: 7%;
+    z-index: -1;
+}
+
+.discount-text-container {
+    position: relative;
+}
+
+.discount-text {
+    text-align: right;
+    color: var(--green);
+    font-family: var(--primary-font);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: -0.18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* ----------X--------- */
+
+
+/* Banner item-2,3 container */
+.banner-item-2-3-container {
+    width: 270px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* banner item-2 */
+.primary-banner-item-2 {
+    position: relative;
+    text-align: right;
+    width: 100%;
+    height: 160px;
+    background-color: var(--banner-bg-2);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    z-index: 1;
+}
+
+.primary-banner-item-2 h3 {
+    margin-top: 0;
+}
+
+.banner-item-2-bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+
+/* banner item-3 */
+.primary-banner-item-3 {
+    width: 100%;
+    height: 240px;
+    background-color: var(--banner-bg-3);
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    z-index: 1;
+}
+
+.banner-item-3-info {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 24px;
+}
+
+.banner-item-3-info h3 {
+    margin-top: 0;
+}
+
+.banner-item-3-img-container {
+    flex-basis: 50%;
+    position: relative;
+    width: fit-content;
+    margin-left: auto;
+}
+
+.banner-item-3-img {
+    margin-right: 20px;
+}
+
+.banner-item-3-bg-container {
+    position: absolute;
+    bottom: 18%;
+    left: -22%;
+    z-index: -1;
+}
+
+
+
+/* Banner item-4*/
+
+.primary-banner-item-4 {
+    width: 470px;
+    height: 100%;
+    background-color: var(--banner-bg-4);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+}
+
+.banner-item-4-info {
+    margin-left: auto;
+    position: relative;
+    right: 48px;
+    top: 45px;
+}
+
+.banner-item-4-img {
+    margin-left: 28px;
+}
+
+/* ----------------------X------------------------- */
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .primary-banner-section {
+        justify-content: center;
+        margin-top: 80px;
+    }
+
+    .primary-banner-item-1,
+    .banner-item-2-3-container,
+    .primary-banner-item-4 {
+        transform: scale(0.9);
+    }
+
+    .banner-item-2-info {
+        position: relative;
+        right: 10px;
+    }
+
+}
+
+
+
+/* @media screen and (max-width: 992px) {
+    .primary-banner-section{
+        margin-top: 80px;
+        height: 500px;
+        display: grid;
+        grid-template-columns: 60% 40%;
+        row-gap: 20px;
+    }
+
+    .primary-banner-item-1, .banner-item-2-3-container, .primary-banner-item-4{
+        transform: scale(1);
+    }
+
+    .banner-item-2-info{
+        position: relative;
+        right: 10px;
+    }
+
+} */
+
+
+@media screen and (min-width: 768px) and (max-width:992px) {
+    .primary-banner-section {
+        margin-top: 40px;
+    }
+
+    .primary-banner-item-1,
+    .banner-item-2-3-container,
+    .primary-banner-item-4 {
+        transform: scale(0.8);
+    }
+
+    .primary-banner-item-1 {
+        position: relative;
+        left: 30px;
+    }
+
+    .banner-item1-img-container {
+        transform: scale(0.9);
+    }
+
+    .banner-item-2-3-container {
+        position: relative;
+        left: 10px;
+    }
+
+    .banner-item2-btn {
+        font-size: 12px;
+    }
+
+    .primary-banner-item-4 {
+        position: relative;
+        right: 20px;
+    }
+
+    .banner-item-4-img-container {
+        transform: scale(.8);
+    }
+
+    .banner-item-4-img {
+        margin-left: 0;
+    }
+}
+
+
+/* no shortcut anymore */
+@media screen and (max-width:767px) {
+    .primary-banner-section {
+        max-width: 520px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 55% 45%;
+        gap: 10px;
+    }
+
+    .banner-subtitle {
+        font-size: 14px;
+    }
+
+
+    .banner-title {
+        font-size: 20px;
+        line-height: 28px;
+        margin: 2px 0;
+    }
+
+    .banner-btn {
+        font-size: 12px;
+    }
+
+    /* banner item 1 responsive */
+    .primary-banner-item-1 {
+        width: 100%;
+        height: 400px;
+    }
+
+    .banner-item1-img {
+        transform: scale(.9);
+    }
+
+    .banner-item1-bg {
+        width: 250px;
+    }
+
+    .discount-bg-container {
+        transform: scale(.8);
+        top: 4%;
+        right: 12%;
+    }
+
+    /* banner item 2-3 responsive */
+    .banner-item-2-3-container {
+        width: 100%;
+    }
+
+    /* banner item 2 responsive */
+    .primary-banner-item-2 {
+        width: 100%;
+        height: 155px;
+    }
+
+    /* banner item 3 responsive */
+    .primary-banner-item-3 {
+        width: 100%;
+        height: 235px;
+    }
+
+    .banner-item-3-img {
+        margin-right: 10px;
+    }
+
+    /* banner item 4 responsive */
+    .primary-banner-item-4 {
+        grid-column: 1 / 3;
+        width: 100%;
+        height: auto;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+
+    .banner-item-4-img {
+        margin-left: 0;
+        width: 250px;
+    }
+
+    .banner-item-4-info {
+        margin-left: 0;
+        position: relative;
+        right: 0;
+        top: 40px;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    .primary-banner-section {
+        max-width: 520px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 55% 45%;
+        gap: 0px;
+    }
+
+
+    .banner-subtitle{
+        font-size: 10px;        
+    }
+
+    .banner-title{
+        font-size: 16px;
+        line-height: 22px;
+        margin: 0 0;
+    }
+
+    .banner-btn{
+        font-size: 8px;
+    }
+
+    /* banner item 1 responsive */
+    .primary-banner-item-1{
+        height: 250px;
+        gap: 20px;        
+    }
+
+    .banner-item1-img-container{
+        flex-basis: 0;
+    }
+
+    .banner-item1-img{
+        /* transform: scale(.7); */
+        width: 150px;
+    }
+
+    .banner-item1-bg{
+        width: 150px;
+    }
+
+
+    /* banner item 2 responsive */
+    .primary-banner-item-2{
+        height: 110px;    
+        gap: 0; 
+        justify-content: space-around; 
+    }
+
+    .banner-item-2-img{
+        width: 70px;
+    }
+
+    .banner-item-2-bg-img{
+        width: 90px;
+    }
+
+    /* banner item 3 responsive */
+    .primary-banner-item-3{
+        height: 130px;
+    }
+
+    .banner-item-3-info{
+        margin-left: 16px;
+    }
+
+    .banner-item-3-img{
+        width: 80px;
+    }
+
+   .banner-item-3-bg-container{
+    transform: scale(.6);
+    bottom: 0;
+    left: -40%;
+   }
+
+}
