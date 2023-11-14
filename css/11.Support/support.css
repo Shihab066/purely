@@ -15,6 +15,9 @@
     gap: 24px;
 }
 
+.support-title{
+    margin-bottom: 8px;
+}
 .support-barrier{
     height: 60px;
     width: 1px;

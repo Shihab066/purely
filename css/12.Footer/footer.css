@@ -1,0 +1,132 @@
+.footer-section {
+    max-width: 1980px;
+    width: 100%;
+    height: 550px;
+    background-color: var(--green);
+    margin: 130px auto 0;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.footer-bg-img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0.04;
+    z-index: -1;
+}
+
+.footer-info-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+
+/* footer item 1 style */
+
+.footer-heading {
+    color: var(--white);
+    line-height: 24px;
+    margin-top: 32px;
+}
+
+.footer-item1-email {
+    color: var(--white);
+    font-family: var(--secondary-font);
+    line-height: 30px;
+    font-weight: 500;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.footer-item1-address {
+    color: var(--white);
+    margin-bottom: 42px;
+    font-weight: 300;
+}
+
+.footer-item1-link {
+    text-decoration: none;
+    color: #67B33D;
+    font-family: var(--secondary-font);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.18px;
+}
+
+/* footer item2 and item3 style */
+
+.footer-list-item {
+    line-height: 18px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    letter-spacing: -0.18px;
+    margin-top: 40px;
+    font-weight: 300;
+}
+
+.footer-list-item li {
+    margin-bottom: 24px;
+}
+
+.footer-list-item li a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+
+/* footer item4 style */
+.footer-input-container {
+    position: relative;
+}
+
+.footer-input::placeholder {
+    color: var(--white);
+    font-family: var(--secondary-font);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: -0.16px;    
+    
+}
+
+.footer-input{
+    width: 225px;
+    padding: 17px 16px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: var(--white);
+    font-family: var(--secondary-font);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: -0.16px; 
+}
+
+.footer-input:focus{
+    outline: none;
+}
+
+.footer-send-icon{
+    cursor: pointer;
+    background-color: #D9D9D9;
+    padding: 5px 10px;
+    position: absolute;
+    top: 50%;
+    right: 6px;
+    transform: translateY(-50%);
+}
+
+.footer-item4-text{
+    color: var(--white);
+    font-weight: 300;
+    margin-top: 40px;
+    margin-bottom: 32px;
+}
