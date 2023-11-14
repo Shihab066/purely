@@ -1,5 +1,4 @@
 /* ------------About section style start---------- */
-
 .about-section {
     max-width: 1980px;
     width: 100%;
@@ -121,6 +120,12 @@
 
 
 /* responsive design for about section */
+@media screen and (min-width:1490px) and (max-width:1570px) {
+    .about-outside-img {
+        left: 88%;
+    }
+}
+
 @media screen and (min-width:1280px) and (max-width:1490px) {
 
     .about-section {
@@ -237,7 +242,7 @@
         font-size: 16px;
     }
 
-    .about-right-subtitle-container{
+    .about-right-subtitle-container {
         justify-content: start;
         gap: 80px;
     }
@@ -467,7 +472,7 @@
         margin-top: 60px;
     }
 
-    .about-section-width {       
+    .about-section-width {
         height: fit-content;
     }
 
