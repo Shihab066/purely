@@ -123,7 +123,7 @@
 
 /* responsive design start */
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1199px) {
 
     .tranding-best-product-section {
         margin-top: 80px;
@@ -437,7 +437,7 @@
 
 }
 
-@media screen and (max-width:576px) {
+@media screen and (max-width:575px) {
     .tranding-best-product-section {
         width: 350px;
         gap: 20px;

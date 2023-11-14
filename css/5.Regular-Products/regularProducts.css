@@ -18,7 +18,7 @@
 /* --------------------------X------------------------ */
 
 
-@media screen and (max-width:1250px) {
+@media screen and (max-width:1199px) {
     .regular-products-section {
         margin-top: 150px;
     }
@@ -115,7 +115,7 @@
 }
 
 
-@media screen and (max-width:576px) {
+@media screen and (max-width:575px) {
     .regular-products-section {
         margin-top: 70px;
     }
