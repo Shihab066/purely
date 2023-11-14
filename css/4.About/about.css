@@ -237,6 +237,11 @@
         font-size: 16px;
     }
 
+    .about-right-subtitle-container{
+        justify-content: start;
+        gap: 80px;
+    }
+
     .about-right-subtitle {
         column-gap: 10px;
     }
@@ -270,7 +275,7 @@
 }
 
 
-@media screen and (max-width:992px) {
+@media screen and (max-width:991px) {
 
     .about-section-width {
         height: 370px;

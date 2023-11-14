@@ -1,0 +1,147 @@
+/* ---------------support section style start--------------- */
+
+.support-section{
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.support-info-container{
+    display: flex;
+    /* justify-content: center; */
+    align-items: start;
+    gap: 24px;
+}
+
+.support-barrier{
+    height: 60px;
+    width: 1px;
+    background-color: var(--main-price-color);
+}
+
+
+@media screen and (max-width: 1199px) {
+    .support-section{
+        width: 90%;
+    }
+    
+    .support-img{
+        width: 50px;
+    }
+
+    .support-title{
+        font-size: 20px;
+        line-height: 36px;
+    }
+
+    .support-text{
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .support-info-container{
+        gap: 14px;
+    }
+
+    .support-img{
+        width: 40px;
+    }
+
+    .support-title{
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .support-text{
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    .support-barrier{
+        height: 50px;
+    }
+}
+
+
+@media screen and (max-width:767px) {
+    .support-section{
+        margin-top: 100px;
+        width: 95%;
+    }
+
+    .support-info-container{
+        gap: 10px;
+    }    
+
+    .support-img{
+        width: 35px;
+    }
+
+    .support-title{
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .support-text{
+        font-size: 11px;
+        line-height: 20px;
+    }
+
+    .support-barrier{
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .support-section{
+        margin-top: 70px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+
+    .support-info-container{
+        gap: 8px;
+        justify-self: center;
+    }
+
+    .support-item3{
+        grid-column: 1/-1;
+    }
+
+    .support-img{
+        width: 30px;
+    }
+
+    .support-title{
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    .support-text{
+        font-size: 10px;
+        line-height: 18px;
+    }
+
+    .support-barrier{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .support-img{
+        width: 28px;
+    }
+    .support-title{
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+    .support-text{
+        font-size: 8px;
+    }
+}
