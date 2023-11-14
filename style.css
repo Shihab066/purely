@@ -7,6 +7,7 @@
 @import url('css/5.Regular-Products/regularProducts.css');
 @import url('css/6.Banners/banner.css');
 @import url('css/8.Tranding-Products/trandingProducts.css');
+@import url('css/9.Most-View-Section/mostView.css');
 @import url('css/10.CTA-Section/ctaSection.css');
 @import url('css/11.Support/support.css');
 @import url('css/12.Footer/footer.css');
@@ -30,6 +31,7 @@
     --banner-bg-3: #E6EDF3;
     --banner-bg-4: #E6F2F2;
     --banner-bg-5: #F6EDF1;
+    --indicator-color: #D9D9D9;
     --primary-font: 'DM Serif Display', serif;
     --secondary-font: 'Inter', sans-serif;
 }
