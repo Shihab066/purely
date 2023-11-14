@@ -167,7 +167,7 @@
     margin-left: 28px;
 }
 
-/* ----------------------X------------------------- */
+/* -----------------------X------------------------ */
 
 
 
@@ -190,28 +190,6 @@
     }
 
 }
-
-
-
-/* @media screen and (max-width: 992px) {
-    .primary-banner-section{
-        margin-top: 80px;
-        height: 500px;
-        display: grid;
-        grid-template-columns: 60% 40%;
-        row-gap: 20px;
-    }
-
-    .primary-banner-item-1, .banner-item-2-3-container, .primary-banner-item-4{
-        transform: scale(1);
-    }
-
-    .banner-item-2-info{
-        position: relative;
-        right: 10px;
-    }
-
-} */
 
 
 @media screen and (min-width: 768px) and (max-width:992px) {
@@ -258,11 +236,11 @@
 }
 
 
-/* no shortcut anymore */
 @media screen and (max-width:767px) {
     .primary-banner-section {
         max-width: 520px;
         width: 100%;
+        height: fit-content;
         display: grid;
         grid-template-columns: 55% 45%;
         gap: 10px;
@@ -349,11 +327,7 @@
 
 @media screen and (max-width: 576px) {
     .primary-banner-section {
-        max-width: 520px;
         width: 95%;
-        height: fit-content;
-        display: grid;
-        grid-template-columns: 55% 45%;
         gap: 14px 0;
         margin-top: 70px;
     }
@@ -386,7 +360,6 @@
     }
 
     .banner-item1-img {
-        /* transform: scale(.7); */
         width: 150px;
     }
 
@@ -394,7 +367,7 @@
         width: 150px;
     }
 
-    .discount-bg-container{
+    .discount-bg-container {
         transform: scale(.6);
         top: -8%;
         right: 2%;

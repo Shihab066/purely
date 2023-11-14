@@ -26,9 +26,9 @@ async function addTrandingProducts(json, id) {
                     </p>
                 </div>
             </div>
-            <button class="btn-secondary">
+            <button class="btn-secondary tranding-product-btn">
                 <p class="btn-secondary-text">Add to Cart</p>
-                <img class="btn-secondary-icon" src="images/icons/shopping-cart2.svg">
+                <img class="btn-secondary-icon tranding-product-btn-icon" src="images/icons/shopping-cart2.svg">
             </button>
         </div>
         `;
