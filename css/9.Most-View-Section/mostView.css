@@ -1,28 +1,26 @@
 /* Most view products section start */
-.most-view-product-section{
+.most-view-product-section {
     margin-top: 130px;
-    /* margin-bottom: 100px; */
     padding-bottom: 48px;
     height: fit-content;
     position: relative;
 }
-/* ----------------X--------------- */
-  
-  .slider-container {       
+
+.slider-container {
     overflow: hidden;
-  }
-  
-  .slider {       
+}
+
+.slider {
     display: flex;
     transition: transform 0.5s ease-in-out;
-  }
-  
-  .cards {
+}
+
+.cards {
     display: flex;
     gap: 30px;
-  }
-  
-  .indicators {
+}
+
+.indicators {
     position: absolute;
     bottom: 0;
     left: 50%;
@@ -31,16 +29,94 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
-  }
-  
-  .indicator {
+}
+
+.indicator {
     width: 10px;
     height: 12px;
     background-color: var(--indicator-color);
     cursor: pointer;
-  }
-  
-  .indicator.active {
-    background-color: var(--green); /* Change this to your desired active color */
-  }
-  
+}
+
+.indicator.active {
+    background-color: var(--green);
+}
+
+
+
+@media screen and (max-width: 1199px) {
+    .most-view-product-section {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .cards {
+        gap: 16px;
+    }
+
+    .indicator {
+        width: 8px;
+        height: 10px;
+    }
+}
+
+
+@media screen and (max-width:991px) {
+    .most-view-product-section {
+        width: 95%;
+    }
+
+    .cards {
+        gap: 16px;
+    }
+
+    .slider-card-btn {
+        font-size: 12px;
+    }
+}
+
+
+@media screen and (max-width: 575px) {
+    .most-view-product-section {
+        margin-top: 80px;
+        padding-bottom: 30px;
+    }
+
+    .slider-card-btn {
+        font-size: 8px;
+        padding: 2px 8px;
+    }
+
+    .cards {
+        gap: 20px;
+    }
+
+    .card {
+        width: 105px;
+        box-sizing: border-box;
+    }
+
+    .indicator {
+        width: 6px;
+        height: 8px;
+    }
+}
+
+
+@media screen and (max-width: 374px) {
+    .most-view-product-section {
+        margin-top: 60px;
+    }
+
+    .cards {
+        gap: 30px;
+    }
+
+    .card {
+        width: 136px;
+    }
+
+    .slider-card-btn img {
+        width: 12px
+    }
+}
