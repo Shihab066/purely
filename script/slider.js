@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function () {
+function slider() {
   const slider = document.querySelector('.slider');
   const cards = document.querySelector('.cards');
   const indicatorsContainer = document.querySelector('.indicators');
@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const cardWidth = card + cardGapValue;
   const bodyWidth = document.body.clientWidth;
   let cardPerView = 4;
-
+  console.log(document.querySelector('.card'))
   if (bodyWidth <= 576 && bodyWidth > 374) {
     cardPerView = 3;
   }
@@ -60,4 +60,6 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   startAutoplay();
-});
+};
+
+setTimeout(slider, 500)

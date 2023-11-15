@@ -109,3 +109,4 @@ async function addProductCard(json, id) {
 }
 
 addProductCard('./jsonData/regularProducts.json', 'regularProductsContainer')
+

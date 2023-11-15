@@ -521,84 +521,17 @@
                 <img class="category-logo" src="images/icons/categoryLogo.svg" alt="">
                 <h1 class="primary-title category-title">Most view Products</h1>
                 <h2 class="subtitle category-subtitle">Organic farmers prioritize the use of compost, cover crops,<br>
-                and crop rotation to enrich the soil with nutrients and maintain</h2>
+                    and crop rotation to enrich the soil with nutrients and maintain</h2>
             </div>
 
             <div class="slider-container">
                 <div class="slider">
-                  <div class="cards">
-                    <!-- Your cards go here -->
-                    <div class="products-card card">
-                        <figure class="products-img-container">
-                            <img class="products-img" src="images/fruitsImage/corn.png">
-                        </figure>
-                        <p class="products-name secondary-title">Organic Corn</p>
-                        <p class="products-price subtitle">$12/kg</p>
-                        <button class="btn-secondary slider-card-btn">
-                            <p class="btn-secondary-text">Add to Cart</p>
-                            <img class="btn-secondary-icon" src="images/icons/shopping-cart2.svg" alt="">
-                        </button>
+                    <div class="cards" id="sliderCards">
+                        <!-- card added from dom -->
                     </div>
-                    <div class="products-card card">
-                        <figure class="products-img-container">
-                            <img class="products-img" src="images/fruitsImage/corn.png">
-                        </figure>
-                        <p class="products-name secondary-title">Organic Corn</p>
-                        <p class="products-price subtitle">$12/kg</p>
-                        <button class="btn-secondary slider-card-btn">
-                            <p class="btn-secondary-text">Add to Cart</p>
-                            <img class="btn-secondary-icon" src="images/icons/shopping-cart2.svg" alt="">
-                        </button>
-                    </div>
-                    <div class="products-card card">
-                        <figure class="products-img-container">
-                            <img class="products-img" src="images/fruitsImage/corn.png">
-                        </figure>
-                        <p class="products-name secondary-title">Organic Corn</p>
-                        <p class="products-price subtitle">$12/kg</p>
-                        <button class="btn-secondary slider-card-btn">
-                            <p class="btn-secondary-text">Add to Cart</p>
-                            <img class="btn-secondary-icon" src="images/icons/shopping-cart2.svg" alt="">
-                        </button>
-                    </div>
-                    <div class="products-card card">
-                        <figure class="products-img-container">
-                            <img class="products-img" src="images/fruitsImage/corn.png">
-                        </figure>
-                        <p class="products-name secondary-title">Organic Corn</p>
-                        <p class="products-price subtitle">$12/kg</p>
-                        <button class="btn-secondary slider-card-btn">
-                            <p class="btn-secondary-text">Add to Cart</p>
-                            <img class="btn-secondary-icon" src="images/icons/shopping-cart2.svg" alt="">
-                        </button>
-                    </div>
-                    <div class="products-card card" >
-                        <figure class="products-img-container">
-                            <img class="products-img" src="images/fruitsImage/corn.png">
-                        </figure>
-                        <p class="products-name secondary-title">Organic Corn</p>
-                        <p class="products-price subtitle">$12/kg</p>
-                        <button class="btn-secondary slider-card-btn">
-                            <p class="btn-secondary-text">Add to Cart</p>
-                            <img class="btn-secondary-icon" src="images/icons/shopping-cart2.svg" alt="">
-                        </button>
-                    </div>
-                    <div class="products-card card">
-                        <figure class="products-img-container">
-                            <img class="products-img" src="images/fruitsImage/corn.png">
-                        </figure>
-                        <p class="products-name secondary-title">Organic Corn</p>
-                        <p class="products-price subtitle">$12/kg</p>
-                        <button class="btn-secondary slider-card-btn">
-                            <p class="btn-secondary-text">Add to Cart</p>
-                            <img class="btn-secondary-icon" src="images/icons/shopping-cart2.svg" alt="">
-                        </button>
-                    </div>
-                    <!-- Add more cards as needed -->
-                  </div>
                 </div>
                 <div class="indicators"></div>
-              </div>
+            </div>
 
         </section>
         <!-- Most View Product Section End -->
@@ -770,9 +703,10 @@
     </footer>
 
     <script src="./script/script.js"></script>
-    <script src="./script/regularProducts.js"></script>
+    <script type="module" src="./script/regularProducts.js"></script>
     <script type="module" src="./script/trandingProducts.js"></script>
     <script src="script/slider.js"></script>
+    <script src="script/mostView.js"></script>
 </body>
 
 </html>

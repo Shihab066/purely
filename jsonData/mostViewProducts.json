@@ -1,0 +1,32 @@
+[
+    {
+        "image": "images/mostViewImage/1.png",
+        "title": "Organic Radish",
+        "price": "$12/kg"
+    },
+    {
+        "image": "images/mostViewImage/2.png",
+        "title": "Red Pear",
+        "price": "$05/kg"
+    },
+    {
+        "image": "images/mostViewImage/3.png",
+        "title": "Fresh spinach",
+        "price": "$12/kg"
+    },
+    {
+        "image": "images/mostViewImage/4.png",
+        "title": "Organic Nuts",
+        "price": "$03/kg"
+    },
+    {
+        "image": "images/mostViewImage/5.png",
+        "title": "Organic Zucchini",
+        "price": "$03/kg"
+    },
+    {
+        "image": "images/mostViewImage/6.png",
+        "title": "Red Snapper",
+        "price": "$12/kg"
+    }
+]
