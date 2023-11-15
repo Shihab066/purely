@@ -61,4 +61,4 @@ function slider() {
   startAutoplay();
 };
 
-// setTimeout(slider, 500)
+setTimeout(slider, 500)

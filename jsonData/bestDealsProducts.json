@@ -1,0 +1,34 @@
+[
+    {
+        "image": "images/mostViewImage/4.png",
+        "title": "Organic Nuts",
+        "offerPrice": "$03",
+        "mainPrice": "$07",
+        "availableItem": 15,
+        "discount": "65%"
+    },
+    {
+        "image": "images/mostViewImage/5.png",
+        "title": "Organic Zucchini",
+        "offerPrice": "$02",
+        "mainPrice": "$06",
+        "availableItem": 20,
+        "discount": "65%"
+    },
+    {
+        "image": "images/mostViewImage/6.png",
+        "title": "Red Snapper",
+        "offerPrice": "$10",
+        "mainPrice": "$21",
+        "availableItem": 20,
+        "discount": "65%"
+    },
+    {
+        "image": "images/mostViewImage/2.png",
+        "title": "Red Pear",
+        "offerPrice": "$05",
+        "mainPrice": "$08",
+        "availableItem": 25,
+        "discount": "65%"
+    }
+]
