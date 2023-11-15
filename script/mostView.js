@@ -4,7 +4,6 @@ async function addMostViewCard(json, id) {
     // fetch json file 
     const response = await fetch(json);
     const productsData = await response.json();
-    console.log(productsData)
     // ----------------------------------------
 
     // forEach the json file and make new element for regular product section

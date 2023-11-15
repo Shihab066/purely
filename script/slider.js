@@ -9,7 +9,7 @@ function slider() {
   const cardWidth = card + cardGapValue;
   const bodyWidth = document.body.clientWidth;
   let cardPerView = 4;
-  console.log(document.querySelector('.card'))
+
   if (bodyWidth <= 576 && bodyWidth > 374) {
     cardPerView = 3;
   }
@@ -47,7 +47,6 @@ function slider() {
   function nextSlide() {
     if (currentIndex < cardCount - cardPerView) {
       currentIndex++
-      console.log(currentIndex)
     }
     else {
       currentIndex = 0
@@ -56,10 +55,10 @@ function slider() {
   }
 
   function startAutoplay() {
-    setInterval(nextSlide, 3000); // Adjust the interval as needed (in milliseconds)
+    setInterval(nextSlide, 3000);
   }
 
   startAutoplay();
 };
 
-setTimeout(slider, 500)
+// setTimeout(slider, 500)
