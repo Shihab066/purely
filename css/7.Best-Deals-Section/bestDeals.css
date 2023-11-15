@@ -339,7 +339,7 @@
 }
 
 @media screen and (max-width: 991px) {
-    .best-deals-section{
+    .best-deals-section {
         margin: 100px auto 100px;
     }
 
@@ -356,57 +356,58 @@
         top: 150px;
         right: 60px;
     }
-    .best-deals-info-container{
+
+    .best-deals-info-container {
         padding-top: 35px;
         padding-left: 25px;
     }
 
-    .best-deals-subtitle{
+    .best-deals-subtitle {
         font-size: 14px;
     }
 
-    .best-deals-title{
+    .best-deals-title {
         font-size: 36px;
         line-height: 40px;
         margin-bottom: 4px;
     }
 
-    .best-deals-secondary-title{
+    .best-deals-secondary-title {
         font-size: 18px;
     }
 
-    .best-deals-text{
+    .best-deals-text {
         font-size: 12px;
         margin-top: 4px;
     }
 
-    .best-deals-info-img{
+    .best-deals-info-img {
         width: 110px;
     }
 
-    .best-deals-slider-container{
+    .best-deals-slider-container {
         width: 305px;
         margin-top: 20px
     }
 
-    .best-deals-cards{
+    .best-deals-cards {
         gap: 15px;
     }
 
-    .best-deals-card{
-       width: 145px;
-       height: 230px;
-       justify-content: end;
-       gap: 0;
+    .best-deals-card {
+        width: 145px;
+        height: 230px;
+        justify-content: end;
+        gap: 0;
     }
 
-    .best-deals-discount-card{
+    .best-deals-discount-card {
         font-size: 10px;
         top: 10px;
         left: 10px;
     }
 
-    .best-deals-card-img-container{
+    .best-deals-card-img-container {
         width: 100px;
         height: 70px;
     }
@@ -415,113 +416,138 @@
         font-size: 16px;
     }
 
-    .best-deals-card-price{
+    .best-deals-card-price {
         font-size: 12px;
         margin-top: 2px;
         margin-bottom: 4px;
     }
-    .best-deals-main-price{
+
+    .best-deals-main-price {
         font-size: 12px;
     }
-    .product-stock{
+
+    .product-stock {
         font-size: 10px;
     }
-    .best-deals-btn-holder{
+
+    .best-deals-btn-holder {
         flex-direction: column;
         gap: 6px
     }
-    .best-deals-card-btn{
+
+    .best-deals-card-btn {
         font-size: 10px;
         padding: 4px 6px;
         margin-bottom: 14px;
     }
-    .indicator1{
+
+    .indicator1 {
         width: 6px;
         height: 8px;
     }
 }
 
 @media screen and (max-width:767px) {
-    .best-deals-person-img{
+    .best-deals-person-img {
         width: 200px;
         right: 8px;
         top: 50%;
     }
-    .best-deals-info-container{
+
+    .best-deals-info-container {
         padding-left: 16px;
     }
 }
 
 @media screen and (max-width:575px) {
-    .best-deals-info-img{
+    .best-deals-section{
+        margin-bottom: 0;
+    }
+    .best-deals-info-img {
         left: 110%;
         width: 100px;
     }
-    .best-deals-person-img{
+
+    .best-deals-person-img {
         display: none;
     }
-    .best-deals-slider-container{
+
+    .best-deals-slider-container {
         padding-left: 0px;
         margin: 20px auto 0;
-        width: 350px;
+        width: 330px;
     }
 
-    .best-deals-cards{
+    .best-deals-cards {
         gap: 10px;
     }
-    .best-deals-card{
+
+    .best-deals-card {
         width: 160px;
     }
-    .best-deals-subtitle{
+
+    .best-deals-subtitle {
         font-size: 12px;
     }
-    .best-deals-title{
+
+    .best-deals-title {
         font-size: 30px;
         margin: 0;
     }
-    .best-deals-secondary-title{
+
+    .best-deals-secondary-title {
         font-size: 14px;
     }
-    .best-deals-text{
+
+    .best-deals-text {
         font-size: 10px;
     }
 }
 
 @media screen and (max-width: 374px) {
-    .best-deals-section{
+    .best-deals-section {
         margin: 80px auto 0;
     }
-    .best-deals-width{       
+
+    .best-deals-width {
         height: 400px;
     }
-    .best-deals-info-img{
+
+    .best-deals-info-img {
         width: 80px;
         left: 110%;
     }
-    .best-deals-title{
+
+    .best-deals-title {
         font-size: 26px;
         line-height: 30px;
         margin: 4px 0;
     }
-    .best-deals-secondary-title{
+
+    .best-deals-secondary-title {
         font-size: 12px;
         line-height: 22px;
     }
-    .best-deals-text{
+
+    .best-deals-text {
         font-size: 10px;
     }
-    .best-deals-slider-container{        
+
+    .best-deals-slider-container {
         width: 275px;
         margin: 20px 0 0;
         padding-bottom: 16px;
     }
-    .best-deals-cards{
+
+    .best-deals-cards {
         gap: 10px;
     }
-    .best-deals-card{
+
+    .best-deals-card {
         width: 132px;
     }
-    .best-deals-card-img{
+
+    .best-deals-card-img {
         width: 80%;
     }
 }
