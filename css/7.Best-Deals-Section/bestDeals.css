@@ -169,7 +169,7 @@
 
 .indicator1 {
     width: 10px;
-    height: 12px;
+    height: 10px;
     background-color: var(--indicator-color);
     cursor: pointer;
 }
@@ -333,7 +333,7 @@
 
     .indicator1 {
         width: 8px;
-        height: 10px;
+        height: 8px;
     }
 
 }
@@ -443,7 +443,7 @@
 
     .indicator1 {
         width: 6px;
-        height: 8px;
+        height: 6px;
     }
 }
 
